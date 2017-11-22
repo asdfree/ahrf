@@ -4,7 +4,7 @@ Title: ahrf
 Version: 0.1.0
 Author: Anthony Joseph Damico
 Maintainer: Anthony Joseph Damico <ajdamico@gmail.com>
-Description: A continuous integration package.
+Description: A continuous integration package, tested on ajdamico/asdfree commit eb672ea19a217c24a8f09bd7adead9e7c75bf687 ajdamico/lodown commit 753c9cb78f71e50a3a99754b9bca51f11c20f9aa
 License: GPL-3
 Imports: lodown, dplyr
 Encoding: UTF-8
