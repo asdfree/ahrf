@@ -1,5 +1,7 @@
 if ( .Platform$OS.type == 'windows' ) memory.limit( 256000 )
 
+options("lodown.cachaca.savecache"=FALSE)
+
 library(lodown)
 lodown( "ahrf" , output_dir = file.path( getwd() ) )
 ahrf_df <- readRDS( file.path( getwd() , "county/AHRF_2016-2017.rds" ) )
